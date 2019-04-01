@@ -27,6 +27,25 @@ class calcus{
                         cout<<"Enter two numbers to mul: ";
                         cin>>i>>k;
                         cout<<"\nThe mul of Numbers Is: "<<i*k;
+                       }
+
+                      void div(){
+
+                        cout<<"Enter two numbers to div: ";
+                        cin>>i>>k;
+                         cout<<"\nThe div of Numbers Is: "<<i/k;
+                       }
+                          
+
+                           
+                        void mix(){
+
+                        cout<<"Enter two numbers to mix: ";
+                        cin>>i>>k;
+                         cout<<"\nThe mix of Numbers Is: "<<i/k+i-k*i;
+                       }
+
+
 
 };
 int main(){
@@ -34,6 +53,8 @@ int main(){
 	c.sum();
 	c.sub();
 	c.mul();
+	c.dic();
+	c.mix();
 	return 0;
 }
 
