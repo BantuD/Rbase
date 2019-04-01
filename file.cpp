@@ -35,6 +35,17 @@ class calcus{
                         cin>>i>>k;
                          cout<<"\nThe div of Numbers Is: "<<i/k;
                        }
+                          
+
+                           
+                        void mix(){
+
+                        cout<<"Enter two numbers to mix: ";
+                        cin>>i>>k;
+                         cout<<"\nThe mix of Numbers Is: "<<i/k+i-k*i;
+                       }
+
+
 
 };
 int main(){
@@ -43,6 +54,7 @@ int main(){
 	c.sub();
 	c.mul();
 	c.dic();
+	c.mix();
 	return 0;
 }
 
