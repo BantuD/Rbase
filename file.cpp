@@ -21,11 +21,19 @@ class calcus{
                         cin>>i>>k;
                         cout<<"\nThe sub of Numbers Is: "<<i-k;
                       }
+
+		   void mul(){
+
+                        cout<<"Enter two numbers to mul: ";
+                        cin>>i>>k;
+                        cout<<"\nThe mul of Numbers Is: "<<i*k;
+
 };
 int main(){
 	calcus c;
 	c.sum();
 	c.sub();
+	c.mul();
 	return 0;
 }
 
